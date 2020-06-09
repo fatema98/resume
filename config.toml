@@ -1,0 +1,187 @@
+# Page settings
+
+baseurl = "http://example.org/"
+languageCode = "en-us"
+title = "Fatema Ghadiali Resume"
+theme = "hugo-orbit-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+# Do not build files for websites. Need them? Set to false
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+[params]
+
+# Meta
+    description = "Fatema Ghadiali"
+    #author = "Pavel Kanyshev"
+
+# Theme styles
+
+    # The original template comes with 6 colour schemes. You may choose styles below.
+    # "styles.css", "styles-2.css", "styles-3.css", "styles-4.css", "styles-5.css", "styles-6.css"
+    # are available. Also the source LESS files are included so
+    # it’s quick and easy to change the styling and colour scheme.
+
+    styles = "styles.css"
+
+# Sidebar sections
+
+    # Profile section
+    [params.profile]
+        name = "Fatema Ghadiali"
+        tagline = "Engineer in Progress…"
+        avatar = "profile.png"
+
+    # Contact section
+    [params.contact]
+        enable = true
+
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto:gfatemaadil98@gmail.com"
+        title = "gfatemaadil98@gmail.com"
+
+        [[params.contact.list]]
+        class = "phone"
+        icon = "fa-phone"
+        url = "tel:+919049368769"
+        title = "+919049368769"
+
+       
+    # Education section
+    [params.education]
+        enable = true
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "BE in Computers [71%]"
+        college = "Savitribai Phule Pune University"
+        dates = "2016 - 2020"
+
+        [[params.education.list]]
+        degree = "10+2(high school) from Maharashtra State Board	[76.92%]"
+        college = "Abeda Inamdar Jr. College for Girls"
+        dates = "2014 - 2016"
+
+	[[params.education.list]]
+        degree = "10th std. from CBSE	[8.8 CGPA]"
+        college = "Elite English School, Dubai"
+        dates = "2013 - 2014"
+
+    # Languages section
+    [params.language]
+        enable = true
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "English"
+        level = "Native"
+
+        [[params.language.list]]
+        language = "Gujrati"
+        level = "Native"
+
+        [[params.language.list]]
+        language = "Arabic"
+        level = "Limited Proficiency"
+        
+        
+        [[params.language.list]]
+        language = "Hindi"
+        level = "Conversational"
+
+    # Interests section
+    [params.interests]
+        enable = true
+        title = "Interests"
+
+        [[params.interests.list]]
+        interest = "Reading"
+
+        [[params.interests.list]]
+        interest = "Content Writing"
+
+        [[params.interests.list]]
+        interest = "Photography"
+        
+        [[params.interests.list]]
+        interest = "Machine Learning"
+
+
+# Main body sections
+
+    # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
+
+    # Projects section
+    [params.projects]
+        enable = true
+        icon = "fa-archive"
+        title = "Mini Projects"
+       
+        [[params.projects.list]]
+        title = "Vehicle Registration"
+        tagline = "IDE: Eclipse | Database: MySQL | Programming Languages: Java | UI Framework: Swing (Java)"
+        description = "This project focuses on implementing Vehicle Registration Scenario by keeping in mind that only one vehicle per class(car and bike) can be registered per license. It also introduces the concept of black-points, which is implemented by the Dubai Government. Every time a driver breaches the law while driving, a number of black-points are added to their license depending upon the degree of crime. After a certain amount of black-points, the license is cancelled. Thus making a hassle free environment for penalties and enforcing the law strictly"
+
+        [[params.projects.list]]
+        title = "MCQ-based Quiz Application"
+        tagline = "IDE: NetBeans | Database: MySQL | Programming Languages: Java, JavaScript | UI Framework: Swing (Java)"
+        description = "TThis project is a simple yet efficent quiz application where it makes use of various CRUD operations as well as arithmatic calculations, inorder to the give the students a way to login, give the test and generate their results. The student gets to choose the topic they want to give the test in and its difficulty level."
+        
+       
+        [[params.projects.list]]
+        title = "Emotion Recognition Personal Assistant with Machine Learning"
+        tagline = "IDE: Pycharm | Programming Languages: Python"
+        description = "This project is build using the agile methodilogies. It is a voice assistant that not only provides basic assistant like functionality, but also takes the mood of the user into consideration."
+    # Skills section
+    [params.skills]
+        enable = true
+        icon = "fa-rocket"
+        title = "Technical Skills"
+
+        [[params.skills.list]]
+        skill = "Python"
+        level = "50%"
+
+        [[params.skills.list]]
+        skill = "Java"
+        level = "55%"
+
+        [[params.skills.list]]
+        skill = "C++"
+        level = "70%"
+
+        [[params.skills.list]]
+        skill = "MySQL"
+        level = "50%"
+        
+        [[params.skills.list]]
+        skill = "Communication skills"
+        level = "98%"
+        
+        [[params.skills.list]]
+        skill = "Management skills"
+        level = "98%"
+        
+        [[params.skills.list]]
+        skill = "Quick Learning"
+        level = "100%"
+        
+        [[params.skills.list]]
+        skill = "Adaptability"
+        level = "90%"
+
+    # Footer section
+
+    # The original template is released under the Creative Commons Attribution 3.0 License.
+    # Please keep the original attribution link when using for your own project.
+    # If you'd like to use the template without the attribution,
+    # you can check out other license options via template author's website: themes.3rdwavemedia.com
+    # 
+    # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
+
+    [params.footer]
+        copyright = ""
