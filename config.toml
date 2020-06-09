@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "http://example.org/"
+baseurl = "https://fatema.netlify.app/"
 languageCode = "en-us"
 title = "Fatema Ghadiali Resume"
 theme = "hugo-orbit-theme"
